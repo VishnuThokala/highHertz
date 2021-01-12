@@ -22,10 +22,62 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+    name: "Ayyappanum Koshiyum",
+    artist: "Sangeethaa , Jakes Bejoy & Nanjamma",
+    image: "https://images.hungama.com/c/1/1e8/e47/52502419/52502419_300x300.jpg",
+    path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Thalam%20Poyi.mp3?alt=media&token=38bd42dd-66cb-49a7-9ead-55c1b991e76a"
+
+  },
+
+  {
     name: "Night Owl",
     artist: "Broke For Free",
         image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
         path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
+
+  },
+  
+  {
+    name: "Master",
+    artist: "Anirudh Ravichander",
+      image: "https://images.hungama.com/c/1/1e8/e47/52502419/52502419_300x300.jpg",
+      path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Vaathi%20Coming.In.mp3?alt=media&token=ef928577-9f74-4882-acdf-73ff7a484c16"
+
+  },
+  {
+    name: "Emai Poyave",
+    artist: "Sid Sriram",
+    image: "https://a10.gaanacdn.com/images/albums/93/2273393/crop_480x480_1544451750_2273393.jpg",
+    path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Emai%20Poyave.mp3?alt=media&token=5753cbba-e75a-45c2-abc9-65cff9076484"
+
+  },
+  {
+    name: "Malang",
+    artist: "Ved Sharma",
+    image: "https://a10.gaanacdn.com/gn_img/albums/P7m3GvNKqx/7m3G0pzRWq/size_xxl_1584109422.webp",
+    path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Malang.mp3?alt=media&token=46ea7a25-c3aa-44e9-b3e4-5a532b1bba4b"
+
+  },
+  
+  {
+    name: "Chellemma",
+    artist: "Anirudh Ravichandar",
+    image: "https://masstamilan.audio/wp-content/uploads/2020/07/Chellamma-song.jpg",
+    path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Chellamma.mp3?alt=media&token=038768f2-653f-4a88-97c0-4e20d562f239"
+
+  },
+  {
+    name: "Tare Ginn",
+    artist: " A.R. Rahman",
+    image: "https://media.santabanta.com/newsite/cinemascope/feed/dil-bechara3.jpg",
+    path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Taare%20Ginn.mp3?alt=media&token=63e7cd0e-e85f-47d8-8748-2e392713e58f"
+
+  },
+  {
+    name: "Dheera Dheera",
+    artist: "Ravi Basrur",
+    image: "https://www.deccanherald.com/sites/dh/files/articleimages/2020/07/01/Yash-1593586320.jpg",
+    path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Dheera%20Dheera.mp3?alt=media&token=b997747b-638d-4db2-bd3f-5b283cabb120"
 
   },
   {
@@ -35,10 +87,17 @@ let track_list = [
     path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Tours/Enthusiast/Tours_-_01_-_Enthusiast.mp3"
   },
   {
-    name: "Master",
-    artist: "Anirudh Ravichander",
-      image: "https://images.hungama.com/c/1/1e8/e47/52502419/52502419_300x300.jpg",
-      path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Vaathi%20Coming.In.mp3?alt=media&token=ef928577-9f74-4882-acdf-73ff7a484c16"
+    name: "Theri Mitti",
+    artist: " B Praak ",
+    image: "https://a10.gaanacdn.com/gn_img/albums/01A3mrWNQX/1A3mJkGnWN/size_m_1552901436.jpg",
+    path: "  https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Teri-Mitti-b-Kesari.mp3?alt=media&token=83dae832-398c-4c4c-aec3-d0016982c748"
+
+  },
+  {
+    name: "Sher Aaya Sher",
+    artist: "‎Divine ",
+    image: "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/gully-boy.jpg?itok=CvmBTha5",
+    path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Sher-Aaya-Sher.mp3?alt=media&token=f16828b9-0ccb-49f0-92b6-add17d6e62f4"
 
   },
   
