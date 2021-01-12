@@ -24,7 +24,7 @@ let track_list = [
   {
     name: "Ayyappanum Koshiyum",
     artist: "Sangeethaa , Jakes Bejoy & Nanjamma",
-    image: "https://images.hungama.com/c/1/1e8/e47/52502419/52502419_300x300.jpg",
+    image: "https://m.media-amazon.com/images/M/MV5BYTZmYmI3OWEtNTIwOC00ODcwLWIwMGMtMWYwZWI3YzQ3NDJjXkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_UY1200_CR84,0,630,1200_AL_.jpg",
     path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Thalam%20Poyi.mp3?alt=media&token=38bd42dd-66cb-49a7-9ead-55c1b991e76a"
 
   },
@@ -69,7 +69,7 @@ let track_list = [
   {
     name: "Tare Ginn",
     artist: " A.R. Rahman",
-    image: "https://media.santabanta.com/newsite/cinemascope/feed/dil-bechara3.jpg",
+    image: "https://www.deccanherald.com/sites/dh/files/articleimages/2020/07/25/DilBechara1-1595657610.jpg",
     path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Taare%20Ginn.mp3?alt=media&token=63e7cd0e-e85f-47d8-8748-2e392713e58f"
 
   },
