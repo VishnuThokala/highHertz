@@ -30,10 +30,10 @@ let track_list = [
   },
 
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-        image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-        path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
+    name: "Sher Aaya Sher",
+    artist: "‎Divine ",
+    image: "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/gully-boy.jpg?itok=CvmBTha5",
+    path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Sher-Aaya-Sher.mp3?alt=media&token=f16828b9-0ccb-49f0-92b6-add17d6e62f4"
 
   },
   
@@ -69,7 +69,7 @@ let track_list = [
   {
     name: "Tare Ginn",
     artist: " A.R. Rahman",
-    image: "https://www.deccanherald.com/sites/dh/files/articleimages/2020/07/25/DilBechara1-1595657610.jpg",
+    image: "https://www.pinkvilla.com/files/styles/contentpreview/public/dil_bechara_website_0.jpg?itok=WjSFJevd",
     path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Taare%20Ginn.mp3?alt=media&token=63e7cd0e-e85f-47d8-8748-2e392713e58f"
 
   },
@@ -94,12 +94,13 @@ let track_list = [
 
   },
   {
-    name: "Sher Aaya Sher",
-    artist: "‎Divine ",
-    image: "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/gully-boy.jpg?itok=CvmBTha5",
-    path: "https://firebasestorage.googleapis.com/v0/b/myproject-e3ab0.appspot.com/o/Sher-Aaya-Sher.mp3?alt=media&token=f16828b9-0ccb-49f0-92b6-add17d6e62f4"
+    name: "Night Owl",
+    artist: "Broke For Free",
+        image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+        path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
 
   },
+  
   
 ];
 
