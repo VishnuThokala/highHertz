@@ -145,11 +145,12 @@
                     function playTrack() {
                         loadTrack(track_index)
                         var songRef = db.collection("songs").doc(track_list[track_index].id);
-
+                                   console.log(track_list[track_index]);
                         return songRef.update({
                             count: track_list[track_index].count+1,
                         })
                             .then(function () {
+                                console.log(track_list[track_index]);
                                 curr_track.play();
                                 isPlaying = true;
                                 playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
